@@ -1,4 +1,5 @@
 require 'pry'
+
 =begin
 Class School 
   
@@ -29,15 +30,13 @@ Class School
     @roster = {}
   end 
   
-  
-def add_student(name, grade)
-  @grade = grade 
-  @name = name 
-  @roster[grade] ||= []
-  @roster[grade] << name
-end 
 
-end 
+  def add_student(name, grade)
+    @grade = grade 
+    @name = name 
+    @roster[grade] ||= []
+    @roster[grade] << name
+  end 
 
-end 
+end
 
