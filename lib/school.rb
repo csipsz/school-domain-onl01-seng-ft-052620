@@ -20,7 +20,6 @@ end
 =end 
 
 Class School 
-  
   attr_accessor :roster
   
   def initialize(name)
@@ -34,6 +33,5 @@ Class School
     @roster[grade] = []
     @roster[grade] << name
   end 
-
 end
 
