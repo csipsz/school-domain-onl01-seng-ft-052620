@@ -16,7 +16,7 @@ class School
     @grade = grade 
     @@roster[grade]
     binding.pry
-    roster[grade] << name 
+    @@roster[grade] << name 
   end 
   
 end 
