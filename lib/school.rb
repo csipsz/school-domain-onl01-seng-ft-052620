@@ -41,7 +41,7 @@ def grade(grade)
 end 
 
 def sort 
-  roster.each do |grade, kids| 
+  roster.map do |grade, kids| 
     #binding.pry
     kids.sort
   end 
