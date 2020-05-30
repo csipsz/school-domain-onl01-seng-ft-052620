@@ -16,3 +16,5 @@ def add_student(grade, name)
   @grade = grade 
   @name = name 
 end 
+
+end 
