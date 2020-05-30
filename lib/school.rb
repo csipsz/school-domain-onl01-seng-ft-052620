@@ -41,7 +41,8 @@ def grade(grade)
 end 
 
 def sort 
-  roster.keys
+  roster.keys.sort 
+  roster.values.sort
   binding.pry
 end 
 
