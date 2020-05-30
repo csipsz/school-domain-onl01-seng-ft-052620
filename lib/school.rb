@@ -4,7 +4,7 @@ class School
     @name = name
       
   def roster 
-    roster = {}
+    @@roster = {}
   end 
   end 
   
