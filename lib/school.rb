@@ -1,3 +1,5 @@
+require 'pry'
+
 =begin
 class School  
   attr_accessor :roster
