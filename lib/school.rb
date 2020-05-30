@@ -39,6 +39,7 @@ def grade(grade)
 end 
 
 def sort 
+  roster.keys.sort
 end 
 
 end 
