@@ -43,7 +43,7 @@ end
 def sort 
   roster.map do |grade, kids| 
     #binding.pry
-    kids.sort!
+    grade = kids.sort!
   end 
 end 
 
