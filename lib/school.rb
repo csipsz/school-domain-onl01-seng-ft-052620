@@ -1,5 +1,3 @@
-require 'pry'
-
 =begin
 Class School 
   
