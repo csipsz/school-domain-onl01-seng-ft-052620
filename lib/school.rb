@@ -45,6 +45,7 @@ def sort
     #binding.pry
     grade = kids.sort!
   end 
+  roster
 end 
 
 end 
