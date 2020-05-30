@@ -19,7 +19,7 @@ end
 =end 
 
 class School  
-  attr_accessor :roster, 
+  attr_accessor :roster
   
   def initialize(name)
     @name = name
