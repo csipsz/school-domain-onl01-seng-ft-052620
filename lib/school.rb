@@ -44,7 +44,6 @@ def sort
   roster.map do |grade| 
     grade.sort
   end 
-  binding.pry
 end 
 
 end 
