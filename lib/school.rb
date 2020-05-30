@@ -40,6 +40,7 @@ end
 
 def sort 
   roster.keys.sort
+  binding.pry
 end 
 
 end 
