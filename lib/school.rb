@@ -35,6 +35,7 @@ def add_student(name, grade)
 end 
 
 def grade(grade)
+  @grade = grade
   @rooster[grade]
 end 
 
