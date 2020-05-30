@@ -19,7 +19,7 @@ end
 =end 
 
 class School  
-  attr_accessor :roster
+  attr_accessor :roster, :grade 
   
   def initialize(name)
     @name = name
@@ -35,8 +35,7 @@ def add_student(name, grade)
 end 
 
 def grade(grade)
-  @grade = grade
-  @rooster[grade]
+  @roster[grade]
 end 
 
 end 
