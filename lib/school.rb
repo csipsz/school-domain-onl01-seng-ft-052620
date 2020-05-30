@@ -6,16 +6,16 @@ class School
     @name = name
       
   def roster 
-    @@roster = {}
+    roster = {}
   end 
   end 
   
   def add_student(name, grade)
     @name = name 
     @grade = grade 
-    @@roster[grade]
+    roster[grade]
     binding.pry
-    @@roster[grade] << name 
+    oster[grade] << name 
   end 
 
 end 
