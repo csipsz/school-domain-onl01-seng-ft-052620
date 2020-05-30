@@ -42,6 +42,7 @@ end
 
 def sort 
   roster.map do |grade| 
+    inding.pry
     grade.sort
   end 
 end 
