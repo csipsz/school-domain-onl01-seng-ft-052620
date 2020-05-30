@@ -45,7 +45,6 @@ def sort
     #binding.pry
     kids.sort
   end 
-  roster
 end 
 
 end 
