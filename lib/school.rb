@@ -10,7 +10,7 @@ class School
   end 
   
   
-def add_student(grade, name)
+def add_student(name, grade)
   @grade = grade 
   @name = name 
   @roster[grade] = []
