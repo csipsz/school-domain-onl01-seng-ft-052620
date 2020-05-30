@@ -1,6 +1,6 @@
 require 'pry'
-
-class School 
+=begin
+Class School 
   
   attr_accessor :roster
   
@@ -18,3 +18,4 @@ def add_student(name, grade)
 end 
 
 end 
+=end 
