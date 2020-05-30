@@ -6,8 +6,10 @@ class School
     @name = name
       
   def roster 
-    @roster = {}
+    @@roster = {}
   end 
+  
+  
   end 
   
   def add_student(name, grade)
